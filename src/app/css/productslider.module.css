@@ -1,0 +1,25 @@
+
+.product_slider{
+    padding: 0px 100px;
+    margin-bottom: 70px;
+}
+
+.product_slider .slick-list{
+    margin: 0px -50px;
+}
+
+.product_slider_item img{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: contain;
+}
+.product_slider_item a:focus-visible{
+    outline: 0px;
+}
+
+@media (min-width: 2000px) {
+    .product_slider .product_slider_item {
+        height: 500px;
+    }
+}

@@ -1,0 +1,139 @@
+.cta_banner_wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -24px;
+    margin-left: -24px;
+}
+  
+.cta_banner_box_full{
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right:24px;
+    padding-left: 24px;
+    margin-bottom: 70px;
+}
+
+.cta_banner_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.cta_banner_image{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.cta_banner_image::before {
+    position: absolute;
+    content: "";
+    transition: var(--transition);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(0 0 0 / 50%);
+    z-index: 2;
+    pointer-events: none;
+}
+.cta_banner_text{
+    position: absolute;
+    width: 100%;
+    padding: 50px 0px;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.cta_banner_text h3{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+.cta_banner_box_wrap{
+    position: relative;
+    height: 450px;
+}
+.cta_buttons a + a{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.btn{
+    font-size: 16px;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    background-color: #fcbe32;
+    border-radius: 100px;
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    max-width: max-content;
+    transition: all 0.3s ease;
+}
+.btn:hover,.btn1:hover{
+    background: #2a2b2d;
+}
+.btn1{
+    font-size: 16px;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    background-color: #43c47c;
+    border-radius: 100px;
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    max-width: max-content;
+    transition: all 0.3s ease;
+}
+/*-------- Responsive Css ---------*/
+@media (max-width: 991px) {
+    .cta_banner_text h3{
+        font-size: 40px;
+    }
+    .cta_buttons a + a{
+        margin-top: 30px;
+    }
+    .cta_banner_box_wrap{
+        height: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cta_banner_text h3{
+      font-size: 30px;
+    }
+    .cta_buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding: 0px 80px;
+    }
+    .cta_buttons a{
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+
+    }
+    .cta_buttons a + a{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+  }

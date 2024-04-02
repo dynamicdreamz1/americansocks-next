@@ -1,0 +1,13 @@
+.related_product_item img{
+    height: 100%;
+    width: 100%;
+}
+
+.related_product_slider{
+    padding: 0px 100px;
+    margin-bottom: 100px;
+}
+
+.related_product_item a:focus-visible{
+    outline: 0px;
+}

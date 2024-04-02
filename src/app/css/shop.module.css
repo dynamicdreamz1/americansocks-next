@@ -1,0 +1,142 @@
+.shop_wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -24px;
+    margin-left: -24px;
+}
+  
+.shop_box{
+    width: 16.66%;
+    position: relative;
+    min-height: 1px;
+    padding-right:24px;
+    padding-left: 24px;
+    margin-bottom: 70px;
+}
+.shop_box .product_image {
+    margin-bottom: 10px;
+}  
+.shop_box .product_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product_text h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2a2b2d;
+    margin-bottom: 10px;
+}
+.product_text p{
+    font-size: 20px;
+    font-weight: 25px;
+    color: #2a2b2d;
+    font-weight: 600;
+}
+.shop_box .product_text{
+    text-align: center;
+}
+
+.shop_box .product_tag{
+    -webkit-clip-path: polygon(83% 0, 100% 20%, 0 20%, 21% 0);
+    clip-path: polygon(80% 0, 100% 20%, 0 20%, 15% 0);
+    background: red;
+    color: #fff;
+    height: 180px;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 0px;
+    font-size: 16px;
+    line-height: 35px;
+    transform: rotate(321deg);
+}
+
+/*-------- Responsive Css ---------*/
+@media (max-width: 1399px) {
+    .shop_box{
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .shop_box{
+        width: 25%;
+    }
+    .product_text h3{
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .product_text p{
+        font-size: 16px;
+    }
+    .shop_box .product_image{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 991px) {
+    .shop_box{
+        width: 33.33%;
+    }
+    .product_text h3{
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .product_text p{
+        font-size: 16px;
+    }
+    .shop_box .product_image{
+        margin-top: 20px;
+    }
+    .shop_box{
+        padding-right:15px;
+        padding-left: 15px;
+    }
+    .shop_wrap{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .shop_box .product_tag{
+        left: 40px;
+    }
+    .shop_box{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .shop_box{
+        width: 50%;
+    }
+    .shop_box .product_tag{
+        height: 160px;
+        width: 120px;
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .shop_box{
+        margin-bottom: 40px;
+    }
+    .product_text h3{
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .product_text p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    .shop_box .product_tag{
+        height: 150px;
+        width: 100px;
+        font-size: 14px;
+        line-height: 32px;
+        left: 35px;
+    }
+}
