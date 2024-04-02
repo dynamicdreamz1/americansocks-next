@@ -3,7 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styles from "../app/css/productdetails.module.css";
+import styles from "../css/productdetails.module.css";
 
 export default function Productdeatils() {
   
@@ -83,6 +83,7 @@ export default function Productdeatils() {
               {/* Product Size and Price table */}
               <div className={styles.price_table}>
                 <table>
+                  <tbody>
                   <tr className={styles.price_table_head}>
                     <th>Sizes</th>
                     <th>S</th>
@@ -124,6 +125,7 @@ export default function Productdeatils() {
                       </div>
                     </td>
                   </tr>
+                  </tbody>
 
                 </table>
               </div>

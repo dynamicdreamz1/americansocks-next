@@ -1,6 +1,7 @@
 import React from 'react'
-import Shop from "@/component/Shop";
-import Shopfilter from "@/component/Shopfilter";
+import Shopfilter from '../../component/Shopfilter';
+import Shop from '../../component/Shop';
+
 
 export default function page() {
     return (

@@ -1,5 +1,6 @@
 import React from 'react'
-import Category from "@/component/Category";
+import Category from '../component/Category'
+
 
 export default function Page() {
   return (

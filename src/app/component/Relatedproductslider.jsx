@@ -3,7 +3,7 @@ import React from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styles from "../app/css/relatedproductslider.module.css";
+import styles from "../css/relatedproductslider.module.css";
 
 export default function Relatedproductslider() {
     var settings = {

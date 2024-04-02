@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../app/css/fullbanner.module.css";
+import styles from "../css/fullbanner.module.css";
 
 export default function Fullbanner() {
   return (
