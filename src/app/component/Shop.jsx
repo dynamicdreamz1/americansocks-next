@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../app/css/shop.module.css";
+import styles from "../css/shop.module.css";
 
 
 export default function Shop() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../app/css/ctabanner.module.css";
+import styles from "../css/ctabanner.module.css";
 
 export default function Ctabanner() {
   return (

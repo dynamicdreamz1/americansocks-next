@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../app/css/shopfilter.module.css";
+import styles from "../css/shopfilter.module.css";
 
 export default function Shopfilter() {
   return (
